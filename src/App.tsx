@@ -5,7 +5,7 @@ import { Router } from "./Router"
 
 function App() {
   return (
-    <ApolloProvider client={client}>
+     <ApolloProvider client={client}>
       <BrowserRouter>
         <Router />
       </BrowserRouter>
